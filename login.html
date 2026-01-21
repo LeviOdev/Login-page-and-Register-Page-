@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+   <div class="login-container">
+    <form id="loginform">
+
+     <section id="enterway">
+        <h2>Novo usuario?</h2>
+        <p>Crie sua conta agora.</p>
+        <a href="register.html" id="in-btn" draggable="false">       
+            REGISTRAR
+        </a>
+    </section> 
+
+    <h1>FAÇA LOGIN</h1>
+    <p id="nomeError" class="mensagemErro">Tu é indigente é?</p>
+    <input type="text" id="inLogin" placeholder="NOME">
+     <p id="senhaError" class="mensagemErro">Sem senha tu não passa amigão.</p> 
+    <input type="password" id="inPassword" placeholder="SENHA">   
+    <input type="submit" value="ENTRAR" id="log-btn">
+    <p id="sucesso"></p>
+
+    </form>
+   </div>
+   <script src="/js/validation.js"></script>
+</body>
+</html>

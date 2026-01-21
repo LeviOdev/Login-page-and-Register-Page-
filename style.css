@@ -1,0 +1,174 @@
+body {
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255) 40%, #120055 100%);
+  height: 762px;
+}
+
+/* cfg gerais */
+.modalway,
+#loginform {
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-shadow: 19px 19px 26px rgba(3, 7, 18, 0.37),
+  77px 77px 104px rgba(3, 7, 18, 0.18);
+  color: #2d01cf;
+  padding-top: 40px;
+  margin-top: 200px;
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 500px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#enterway {
+  background-color: #2d01cf;
+  float: left;
+  color: white;
+  margin-top: -40px;
+  padding-top: 40px;
+  border-radius: 20px;
+  border-radius: 20px 0 0 20px;
+  width: 250px;
+  height: 500px;
+}
+
+h3 {
+  color: rgba(255, 0, 0, 0.644);
+  margin: 0;
+  margin-bottom: -20px;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h2 {
+  margin-top: 70px;
+}
+/* cfg gerais */
+
+
+
+
+
+/* botão de "ENTRAR" */
+#in-btn,
+#cad-btn,
+.regway {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#cad-btn,
+#log-btn {
+  background-color:  #2d01cf;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 340px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  transition: 170ms ease-in-out;
+}
+
+#log-btn:hover, #cad-btn:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.281);
+}
+/* botão de "ENTRAR" */
+
+
+
+
+
+/* botão logar ou cadastrar */
+#in-btn {
+  display: block;
+  width: 100px;
+  text-align: center;
+  background-color:  #2d01cf;
+  margin-left: 57px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px solid;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  transition: ease-in-out 160ms;
+}
+
+#in-btn:hover {
+  user-select: none;
+  cursor: pointer;
+  transform: scale(1.02);
+  border: 3px solid rgba(255, 255, 255, 0.596);
+  box-shadow: -0px 6px 0px rgba(3, 7, 18, 0.43);
+}
+/* botão logar ou cadastrar */
+
+
+
+
+
+/* cfg para inputs de texto  */
+#inLogin,
+#inPassword,
+#inEmail {
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #f5f4f4;
+  width: 500px;
+  margin: 5px;
+  padding: 20px;
+  transition: 100ms ease-in-out;
+}
+
+
+
+
+::placeholder {
+  text-align: center;
+}
+
+#inLogin:hover,
+#inPassword:hover,
+#inEmail:hover,
+#inLogin:hover,
+#inPassword:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.034);
+}
+
+#inLogin:focus,
+#inPassword:focus,
+#inEmail:focus,
+#inLogin:focus,
+#inPassword:focus {
+  transform: scale(1.01);
+  outline: 0px solid transparent;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.096);
+}
+/* cfg para inputs de texto fim */
+
+
+
+.mensagemErro {
+  margin: 0;
+  color: red;
+  visibility: hidden;
+}
+
+#sucesso {
+  margin-top: 10px;
+  color: red;
+}
+
+

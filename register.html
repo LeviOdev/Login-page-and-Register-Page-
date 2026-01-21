@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+   <div class="login-container">
+    <form id="loginform">
+     <section id="enterway">
+        <h2>Bem-Vindo de volta</h2>
+        <p>Entre na sua conta.</p>
+        <a href="login.html" id="in-btn" draggable="false">       
+            ENTRAR
+        </a>
+    </section>   
+    <h1>FAÇA LOGIN</h1>
+    <p id="nomeError" class="mensagemErro">vai entrar sem nome é?</p>
+    <input type="text" id="inLogin" placeholder="NOME">
+    <p id="emailError" class="mensagemErro">cade o email rapaz?</p>
+    <input type="text" id="inEmail" placeholder="E-MAIL">
+    <p id="senhaError" class="mensagemErro"> E A SENHA MOSSS?</p>
+    <input type="password" id="inPassword" placeholder="SENHA">   
+    <input type="submit" value="ENTRAR" id="cad-btn">
+    <p id="sucesso"></p>
+    </form>
+   </div>
+    <script src="/js/register.js"></script>
+</body>
+</html>
